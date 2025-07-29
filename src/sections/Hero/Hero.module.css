@@ -1,0 +1,11 @@
+#hero {
+  height: 100vh; /* Full viewport height */
+  background-color: #086bcd; /* Light background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #d30505;
+  text-align: center;
+}
