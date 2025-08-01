@@ -1,14 +1,25 @@
 import styles from './Hero.module.css';
 import heroImg from '../../assets/hero-img.png';
-import themeIcon from '../../assets/sun.svg';
-import twitterIcon from '../../assets/twitter-light.svg';
-import githubIcon from '../../assets/github-light.svg';
-import linkinIcon from '../../assets/linkedin-light.svg';
-import { Button } from 'bootstrap';
+import sun from '../../assets/sun.svg';
+import moon from '../../assets/moon.svg';
+import twitterLight from '../../assets/twitter-light.svg';
+import twitterDark from '../../assets/twitter-dark.svg';
+import githubLight from '../../assets/github-light.svg';
+import githubDark from '../../assets/github-dark.svg'
+import linkinLight from '../../assets/linkedin-light.svg';
+import linkinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
+import { useTheme } from '../../common/Themecontext';
 
 function Hero() {
-return (
+  const { theme, toggleTheme} = useTheme ();
+
+  const themeIcon = theme === 'light' ? sun : moon;
+  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+  const githubIcon = theme === 'light' ? githubLight : githubDark;
+  const linkinIcon = theme === 'light' ? linkinLight : linkinDark;
+
+  return (
   <section id="hero"className={styles.container}>
     <div className={styles.colorModeContainer}>
       <img
@@ -20,6 +31,7 @@ return (
       className={styles.colormode}
       src={themeIcon}
       alt="Color mode icon"
+      onClick={toggleTheme}
       />
     </div>
     <div className={styles.info}>
