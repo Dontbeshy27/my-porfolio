@@ -1,7 +1,9 @@
 import styles from './Project.module.css'
-import vibber from '../../assets/viberr.png';
 import freshBurger from '../../assets/fresh-Burger.png';
-import hipsster from '../../assets/hipsster.png';
+import dropbox from '../../assets/dropbox.png'
+import pubgmIcon from '../../assets/pubgmIcon.jpg'
+import bookingIcon from '../../assets/bookingIcon.jpg'
+import evaluationIcon from '../../assets/evaluationIcon.jpg'
 import ProjectCard from '../../common/ProjectCard'; 
 
 function Project() {
@@ -10,7 +12,7 @@ function Project() {
     <h1 className="sectionTitle">Project Experience</h1>
     <div className={styles.projectsContainer}>
     <ProjectCard 
-    src={vibber}
+    src={dropbox}
     link="https://github.com/Dontbeshy27/MINI-1-"
     h3="Mini Project 1"
     p="This is Clone of Dropbox"
@@ -18,24 +20,31 @@ function Project() {
 
 
     <ProjectCard 
-    src={freshBurger}
-    link="https://github.com/Dontbeshy27/MINI-1-"
+    src={bookingIcon}
+    link="https://github.com/Dontbeshy27/VNV-RESORT-BOOKING"
     h3="Mini Project 2"
     p="This VNV-RESORT-BOOKING-WEBSITE"
     />
 
     <ProjectCard 
-    src={hipsster}
-    link="https://github.com/Dontbeshy27/MINI-1-"
+    src={pubgmIcon}
+    link="https://github.com/Dontbeshy27/Final_Capstone_Vite"
     h3="THESIS IN KODEGO"
     p="PUBGM WEBSITE USING LARAVEL FOR BACKEND AND REACT FOR FRONTEND"
     />
 
+    <ProjectCard 
+    src={evaluationIcon}
+    link="https://github.com/Dontbeshy27/Faculty-Evaluation-System"
+    h3="Faculty Evaluation System"
+    p="For PRMSU-CASTILLEJOs using PHP framerwork"
+    />
 
     </div>
      </section>
      );
 }
+
 
 
 export default Project
