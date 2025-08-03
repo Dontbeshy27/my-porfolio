@@ -36,8 +36,7 @@ function Project() {
 
     <ProjectCard 
     src={logoIcon}
-    link="https://github.com/Dontbeshy27/BSIT-CAPSTONEtbeshy27/Faculty-Evaluation-System"
-    h3="CASHLESS FARE AND MONITORING SYSTEM"
+    link="https://github.com/Dontbeshy27/BSIT-CAPSTONE"
     p="Advance Monitoring system of Zamodca tsmpc"
     />
 
