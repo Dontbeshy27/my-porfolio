@@ -36,10 +36,10 @@ function Hero() {
     </div>
     <div className={styles.info}>
       <h1>
-        Eduardo 
+        Eduardo M.
         <br>
         </br>
-        Pacheco
+        Pacheco JR.
       </h1>
       <h2>
         Front end Web-Developer

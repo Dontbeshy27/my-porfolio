@@ -3,6 +3,7 @@ import freshBurger from '../../assets/fresh-Burger.png';
 import dropbox from '../../assets/dropbox.png'
 import pubgmIcon from '../../assets/pubgmIcon.jpg'
 import bookingIcon from '../../assets/bookingIcon.jpg'
+import logoIcon from '../../assets/logoIcon.jpg'
 import evaluationIcon from '../../assets/evaluationIcon.jpg'
 import ProjectCard from '../../common/ProjectCard'; 
 
@@ -31,6 +32,13 @@ function Project() {
     link="https://github.com/Dontbeshy27/Final_Capstone_Vite"
     h3="THESIS IN KODEGO"
     p="PUBGM WEBSITE USING LARAVEL FOR BACKEND AND REACT FOR FRONTEND"
+    />
+
+    <ProjectCard 
+    src={logoIcon}
+    link="https://github.com/Dontbeshy27/BSIT-CAPSTONEtbeshy27/Faculty-Evaluation-System"
+    h3="CASHLESS FARE AND MONITORING SYSTEM"
+    p="Advance Monitoring system of Zamodca tsmpc"
     />
 
     <ProjectCard 
