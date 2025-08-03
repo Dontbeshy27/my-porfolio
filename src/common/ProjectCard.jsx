@@ -1,12 +1,11 @@
 import React from 'react'
 
-function ProjectCard( { src }) {
+function ProjectCard( { src, link, h3, p  }) {
   return (
-       <a href="https://github.com/Dontbeshy27/MINI-1-"
-    target="_blank">
-        <img className="hover" src={src} alt="Viberr logo" />
-    <h3>Clone of Dropbox Website</h3>
-    <p>This is the Mini Project1 from Kodego </p>
+       <a href={link} target="_blank">
+        <img className="hover" src={src} alt={'${h3} logo'} />
+    <h3>{h3}</h3>
+    <p>{p}</p>
     </a> 
 
 
