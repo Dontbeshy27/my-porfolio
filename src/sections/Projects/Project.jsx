@@ -15,7 +15,7 @@ function Project() {
     <ProjectCard 
     src={dropbox}
     link="https://github.com/Dontbeshy27/MINI-1-"
-    h3="Mini Project 1"
+    h3="MINI PROJECT 1"
     p="This is Clone of Dropbox"
     />
 
@@ -23,7 +23,7 @@ function Project() {
     <ProjectCard 
     src={bookingIcon}
     link="https://github.com/Dontbeshy27/VNV-RESORT-BOOKING"
-    h3="Mini Project 2"
+    h3="MINI PROJECT 2"
     p="This VNV-RESORT-BOOKING-WEBSITE"
     />
 
@@ -37,13 +37,14 @@ function Project() {
     <ProjectCard 
     src={logoIcon}
     link="https://github.com/Dontbeshy27/BSIT-CAPSTONE"
-    p="Advance Monitoring system of Zamodca tsmpc"
+       h3="COLLEGE THESIS"
+    p="Advance Monitoring system of Zamodca TSMPC"
     />
 
     <ProjectCard 
     src={evaluationIcon}
     link="https://github.com/Dontbeshy27/Faculty-Evaluation-System"
-    h3="Faculty Evaluation System"
+    h3="FACULTY EVALIATION SYSTEM"
     p="For PRMSU-CASTILLEJOs using PHP framerwork"
     />
 
