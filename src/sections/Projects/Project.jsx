@@ -1,5 +1,4 @@
 import styles from './Project.module.css'
-import freshBurger from '../../assets/fresh-Burger.png';
 import dropbox from '../../assets/dropbox.png'
 import pubgmIcon from '../../assets/pubgmIcon.jpg'
 import bookingIcon from '../../assets/bookingIcon.jpg'
