@@ -42,7 +42,7 @@ function Hero() {
         Pacheco JR.
       </h1>
       <h2>
-        Front end Web-Developer
+        Full-Stack Web-Developer
       </h2>
       <span>
         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
