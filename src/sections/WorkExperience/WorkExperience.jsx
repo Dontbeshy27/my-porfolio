@@ -8,7 +8,7 @@ const experiences = [
     startDate: 'June 2025',
     endDate: 'June 2026',
     description:
-      'Encoded shipping information for incoming clients\' oil shipments at Ma\'am Leah D. Sarvida\'s customs brokerage office.',
+      'Encoded shipping information for incoming client\'s oil shipments at Ma\'am Leah D. Sarvida\'s customs brokerage office.',
   },
   {
     title: 'On-the-Job Training',

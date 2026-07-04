@@ -5,6 +5,7 @@ import bookingIcon from '../../assets/bookingIcon.jpg'
 import logoIcon from '../../assets/logoIcon.jpg'
 import evaluationIcon from '../../assets/evaluationIcon.jpg'
 import ProjectCard from '../../common/ProjectCard'; 
+import learnIcon from '../../assets/learnIcon.jpg'
 
 function Project() {
   return ( 
@@ -45,6 +46,13 @@ function Project() {
     link="https://github.com/Dontbeshy27/Faculty-Evaluation-System"
     h3="FACULTY EVALIATION SYSTEM"
     p="For PRMSU-CASTILLEJOs using PHP framerwork"
+    />
+
+<ProjectCard 
+    src={learnIcon}
+    link="https://github.com/Dontbeshy27/learning-website"
+    h3="LEARNING WEBSITE"
+    p="For my Knowledge for everything that i  want to learn"
     />
 
     </div>

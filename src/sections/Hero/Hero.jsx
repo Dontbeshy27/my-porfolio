@@ -55,7 +55,12 @@ function Hero() {
           <img src={linkinIcon} alt="LinkedIn icon" />
         </a>
       </span>
-      <p> With passion for developing modern React Web apps for commercial business</p>
+      <p>Certified Fullstack Web Developer with a strong background in data
+         systems and technical operations. Combining proficiency in React, PHP,
+         and Database Management with practical experience in high-volume data
+         encoding and administrative workflows. A dedicated problem-solver who
+         leverages both technical coding skills and real-world data management
+         experience to build efficient, user-centric digital tools.</p>
       <a href={CV} download>
         <button className="hover">Resume</button>
       </a>
