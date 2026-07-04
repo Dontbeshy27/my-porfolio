@@ -5,12 +5,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node scripts/use-dev-html.mjs && vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b main --dest docs --dotfiles"
+    "deploy": "node scripts/deploy-root.mjs"
   },
   "dependencies": {
     "@types/three": "^0.178.1",
