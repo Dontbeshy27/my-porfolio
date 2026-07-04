@@ -45,16 +45,17 @@ function Hero() {
         Front end Web-Developer
       </h2>
       <span>
-      <a href="https//twitter.com/" target="_blank"></a>
-      <img src={twitterIcon} alt="Twitter icon" />
-    
-      <a href="https//github.com/" target="_blank"></a>
-      <img src={githubIcon} alt="Github icon" />
-     
-      <a href="https//linkin.com/" target="_blank"></a>
-      <img src={linkinIcon} alt="TLinkin icon" />
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <img src={twitterIcon} alt="Twitter icon" />
+        </a>
+        <a href="https://github.com/Dontbeshy27" target="_blank" rel="noopener noreferrer">
+          <img src={githubIcon} alt="Github icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/eduardo-pacheco-jr-b61800296/" target="_blank" rel="noopener noreferrer">
+          <img src={linkinIcon} alt="LinkedIn icon" />
+        </a>
       </span>
-      <p> With passion for developing modern React Web apps for commecial business</p>
+      <p> With passion for developing modern React Web apps for commercial business</p>
       <a href={CV} download>
         <button className="hover">Resume</button>
       </a>

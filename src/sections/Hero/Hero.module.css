@@ -9,6 +9,11 @@
 
   .hero {
     max-width: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
   }
 
   span {
@@ -86,6 +91,7 @@
     .hero {
       max-width: 350px;
       width: 350px;
+      height: 350px;
     }
   }
 }
@@ -95,6 +101,7 @@
     .hero {
       max-width: 400px;
       width: 400px;
+      height: 400px;
     }
   }
 }
