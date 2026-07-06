@@ -5,7 +5,7 @@ import bookingIcon from '../../assets/bookingIcon.jpg'
 import logoIcon from '../../assets/logoIcon.jpg'
 import evaluationIcon from '../../assets/evaluationIcon.jpg'
 import ProjectCard from '../../common/ProjectCard'; 
-import learnIcon from '../../assets/learnIcon.jpg'
+import learnIcon from '../../assets/learnicon.jpg';
 
 function Project() {
   return ( 
