@@ -45,9 +45,6 @@ function Hero() {
         Full-Stack Web Developer
       </h2>
       <span>
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-          <img src={twitterIcon} alt="Twitter icon" />
-        </a>
         <a href="https://github.com/Dontbeshy27" target="_blank" rel="noopener noreferrer">
           <img src={githubIcon} alt="Github icon" />
         </a>
